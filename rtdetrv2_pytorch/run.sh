@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python tools/train.py -c configs/rtdetrv2/dronesite.yml > "logs/aug_e36.log" 2>&1 &

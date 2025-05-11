@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+ultralytics
+__pycache__
+.DS_Store
+*.ipynb
+*.pth 
+*.pdparams
+*.onnx
+*.jpg
+*.log
+rtdetrv2_pytorch/annotations
+rtdetrv2_pytorch/output
+rtdetrv2_pytorch/logs
