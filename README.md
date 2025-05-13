@@ -28,7 +28,6 @@ cd rtdetrv2_pytorch
 百度网盘：
 
 ```bash
-通过网盘分享的文件：
 https://pan.baidu.com/s/1D_cgxulo4GfQGHN7wZSB2Q?pwd=gvr6
 ```
 
