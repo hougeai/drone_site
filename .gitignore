@@ -3,7 +3,8 @@ ultralytics
 __pycache__
 .DS_Store
 *.ipynb
-*.pth 
+*.pth
+*.pt 
 *.pdparams
 *.onnx
 *.jpg
@@ -11,3 +12,4 @@ __pycache__
 rtdetrv2_pytorch/annotations
 rtdetrv2_pytorch/output
 rtdetrv2_pytorch/logs
+ultralytics

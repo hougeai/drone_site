@@ -186,8 +186,8 @@ def read_coco_ann():
 
 def coco2yolo():
     root_dir = '/mnt/sda1/datasets/drone_site'
-    anno = json.load(open(os.path.join(root_dir, 'dataset/annotations/val_640_025.json')))
-    label_dir = os.path.join(root_dir, 'dataset/labels/val_640_025')
+    anno = json.load(open(os.path.join(root_dir, 'dataset/annotations/train_640_025.json')))
+    label_dir = os.path.join(root_dir, 'dataset/labels/train_640_025')
     os.makedirs(label_dir, exist_ok=True)
     # 建立图片ID到标注的映射
     img_ann_dict = defaultdict(list)
